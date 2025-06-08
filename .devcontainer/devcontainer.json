@@ -1,0 +1,21 @@
+{
+  "name": "taskmaster-codespaces",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.live-server",
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "forwardPorts": [3000, 8000, 8080],
+  "postCreateCommand": "echo TaskMaster development environment ready",
+  "remoteUser": "codespace",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "18"
+    }
+  }
+}
