@@ -1,0 +1,17 @@
+{
+  "name": "taskmaster-intelligent-pipeline",
+  "version": "1.0.0",
+  "description": "TaskMaster - Simple Task Management App generated via NextMonth Lab intelligent pipeline",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 3000",
+    "dev": "python3 -m http.server 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Flashbuzz/taskmaster-intelligent-pipeline.git"
+  },
+  "keywords": ["task-management", "productivity", "nextmonth-lab", "claude-generated"],
+  "author": "NextMonth Lab AI Pipeline",
+  "license": "MIT"
+}
